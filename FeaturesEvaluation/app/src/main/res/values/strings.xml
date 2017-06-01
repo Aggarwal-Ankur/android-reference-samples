@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FeaturesEvaluation</string>
+    <string name="title_activity_java_eval">JavaEvalActivity</string>
 </resources>
