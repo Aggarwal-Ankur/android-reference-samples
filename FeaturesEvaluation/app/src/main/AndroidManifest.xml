@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".java.JavaEvalActivity"
-            android:label="@string/title_activity_java_eval"
+            android:name=".java.DefaultMethodActivity"
+            android:label="@string/title_activity_default_methods"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

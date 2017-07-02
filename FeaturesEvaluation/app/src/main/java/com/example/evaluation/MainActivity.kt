@@ -1,8 +1,11 @@
 package com.example.evaluation
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
+import com.example.evaluation.java.DefaultMethodActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,8 +14,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Example of a call to a native method
-        val tv = findViewById(R.id.sample_text) as TextView
-        tv.text = stringFromJNI()
+       /* val tv = findViewById(R.id.sample_text) as TextView
+        tv.text = stringFromJNI()*/
+    }
+
+    /**
+     * Use semicolon at the end??
+     */
+    fun launchDefaultMethodActivity(v: View){
+        val intent = Intent(this, DefaultMethodActivity::class.java)
+        startActivity(intent);
     }
 
     /**

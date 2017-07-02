@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">FeaturesEvaluation</string>
-    <string name="title_activity_java_eval">JavaEvalActivity</string>
+    <string name="title_activity_default_methods">Default Methods in interfaces</string>
 </resources>
